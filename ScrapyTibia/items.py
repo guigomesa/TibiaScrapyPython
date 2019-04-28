@@ -8,49 +8,37 @@
 import scrapy
 
 
-class ScrapytibiaItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+class WorldListScrapy(scrapy.Item):
+    Name = scrapy.Field()
+    NumberPlayerOnline = scrapy.Field()
+    Url = scrapy.Field()
     pass
 
 
 class Mundo(scrapy.Item):
-    Nome = scrapy.Field()
-    QtdPlayersOnline = scrapy.Field()
-    RecordePlayersOnline = scrapy.Field()
-    TipoPvp = scrapy.Field()
-    InformacaoAdicional = scrapy.Field()
-    Transferenciatipo = scrapy.Field()
-    Status = scrapy.Field()    
-    DataScrapy = scrapy.Field()
+
+    Name = scrapy.Field()
+    NumberPlayersOnline = scrapy.Field()
+    Location = scrapy.Field()
+    PvpStyle = scrapy.Field()
+
     pass
 
-class Jogador(scrapy.Item):
-    Nome = scrapy.Field()
-    NomeAntigo = scrapy.Field()
-    Sexo = scrapy.Field()
-    Vocacao = scrapy.Field()
+
+class Player(scrapy.Item):
+
+    Name = scrapy.Field()
+    OlderName = scrapy.Field()
+    Sex = scrapy.Field()
+    Profession = scrapy.Field()
     Level = scrapy.Field()
-    PontosAchievement = scrapy.Field()
-    CidadeResidencia = scrapy.Field()
-    Casa = scrapy.Field()
-    MembroGuild = scrapy.Field()
-    UltimoLogin = scrapy.Field()
-    StatusDaConta = scrapy.Field()
-    InformacaoDaConta = scrapy.Field()
-    DataCriacaoConta = scrapy.Field()
-    AchievementsJogador = scrapy.Field()
-    DataScrapy = scrapy.Field()
-    pass
+    WorldName = scrapy.Field()
+    CityResidence = scrapy.Field()
+    LastLoginStr = scrapy.Field()
+    Deaths = scrapy.Field()
+    CityResidence = scrapy.Field()
+    LastLogin = scrapy.Field()
+    AccountStatus = scrapy.Field()
+    House = scrapy.Field()
 
-class AchievementsJogador(scrapy.Item):
-    TotalEstrela = scrapy.Field()
-    NomeAchievement = scrapy.Field()
-    pass
-
-class MorteJogador(scrapy.Item):
-    DataMorte = scrapy.Item()
-    LevelMorte = scrapy.Item()
-    MotivoMorteMonstro = scrapy.Item()
-    MotivoMorteJogador = scrapy.Item()
     pass

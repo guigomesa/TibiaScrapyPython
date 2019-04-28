@@ -3,5 +3,8 @@
     "python.jediEnabled": true,
     //"python.pythonPath": "home/guigomesa/Ambientes/ScrapyTibiaEnv/bin/Python3"
     //home/guigomesa/Ambientes/ScrapyTibiaEnv/bin
-    "python.pythonPath": "/home/guigomesa/.venvs/ScrapyTibia/bin/python"
+    "python.pythonPath": "/media/guigomesa/Dados/Repositorios/TibiaScrapyPython/.venvs/TibiaScrapyPython/bin/python3",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.enabled": true
 }
