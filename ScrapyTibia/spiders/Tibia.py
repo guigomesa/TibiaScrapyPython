@@ -32,14 +32,12 @@ class TibiaSpider(scrapy.Spider):
         mundo['Location'] = response.xpath("//td[contains(text(),'Location:')]/following-sibling::td[1]/text()").extract_first()
         mundo['PvpStyle'] = response.xpath("//td[contains(text(),'PvP Type:')]/following-sibling::td[1]/text()").extract_first()
 
-
         players = response.xpath("//tr[@class=\"Odd\" or @class=\"Even\"]/td/a/@href").extract()
 
-        for player_url in players:
-
-            yield scrapy.Request(url=player_url, callback=self.parse_player)
-
         yield mundo
+
+        for player_url in players:
+            yield scrapy.Request(url=player_url, callback=self.parse_player)
 
         pass
 
