@@ -3,7 +3,7 @@
     "python.jediEnabled": true,
     //"python.pythonPath": "home/guigomesa/Ambientes/ScrapyTibiaEnv/bin/Python3"
     //home/guigomesa/Ambientes/ScrapyTibiaEnv/bin
-    "python.pythonPath": "/media/guigomesa/Dados/Repositorios/TibiaScrapyPython/.venvs/TibiaScrapyPython/bin/python3",
+    "python.pythonPath": "C:\\Users\\guigo\\Anaconda3\\python.exe",
     "python.linting.pylintEnabled": false,
     "python.linting.pycodestyleEnabled": true,
     "python.linting.enabled": true
