@@ -69,7 +69,7 @@ ITEM_PIPELINES = {
     'ScrapyTibia.tibiaPipelines.TibiaPlayerPipeline': 600
 }
 
-MONGODB_SERVER = "172.17.0.4"
+MONGODB_SERVER = "localhost"
 MONGODB_PORT = 27017
 MONGODB_DB = "TibiaDB"
 MONGODB_COLLECTION_WORLD = "TibiaWorld"

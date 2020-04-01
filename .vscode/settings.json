@@ -5,6 +5,6 @@
     //home/guigomesa/Ambientes/ScrapyTibiaEnv/bin
     "python.pythonPath": "/media/guigomesa/Dados/Repositorios/TibiaScrapyPython/.venvs/TibiaScrapyPython/bin/python3",
     "python.linting.pylintEnabled": false,
-    "python.linting.pep8Enabled": true,
+    "python.linting.pycodestyleEnabled": true,
     "python.linting.enabled": true
 }
