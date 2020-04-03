@@ -1,6 +1,6 @@
 asn1crypto==0.24.0
 attrs==18.2.0
-Automat==0.7.0
+Automat==20.2.0
 cffi==1.14.0
 constantly==15.1.0
 cryptography==2.3.1
