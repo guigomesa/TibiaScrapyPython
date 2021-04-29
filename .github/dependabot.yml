@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: pymongo
+    versions:
+    - 3.11.2
+  - dependency-name: scrapy
+    versions:
+    - 2.4.1
